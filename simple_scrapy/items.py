@@ -7,7 +7,7 @@ def remove_charater_price(value):
 
 
 def remove_charater_title(value):
-    return value.replace(u"\u2019", '\'').replace(u"\u201c", '').replace(u"\u2019", '')
+    return value.replace(u"\u2019", '\'').replace(u"\u201c", '').replace(u"\u201d", '')
 
 
 class ClothItem(scrapy.Item):
